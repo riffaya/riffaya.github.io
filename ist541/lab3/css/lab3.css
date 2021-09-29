@@ -2,19 +2,22 @@
 /* CSS Document */
 body {
 	text-align: center;
-	background-color: bisque;  
+	background-color:darkcyan;  
 }
 
 a {
-	padding: 15px;
-	margin: 3px;
+	padding: 10px;
+	margin: 5px;
 	font-size: 125%;
-	background-color: burlywood; 
+	background-color: lemonchiffon; 
 	color:darkblue; 
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-style: bold;
+	
 }
 
 a:hover {
-	font-size:200%;
+	font-size:150%;
 	background-color: aliceblue; 
 	color: cornflowerblue; 
 }
