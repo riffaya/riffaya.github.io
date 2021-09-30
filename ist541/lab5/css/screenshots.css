@@ -28,4 +28,26 @@ border: black 5px solid;
 cursor: pointer;
 }
 
+body {
+	text-align: center;
+	background-color:beige;  
+}
+
+a {
+	padding: 5px;
+	margin: 5px;
+	font-size: 125%;
+	background-color:cadetblue; 
+	color:white; 
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-style: bold;
+	
+}
+
+a:hover {
+	font-size:150%;
+	background-color: aliceblue; 
+	color: cornflowerblue; 
+}
+
 
