@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="css/screenshots.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+ 
+$(function(){
+$("#option1").click( function(){
+   $("#feedback").html("<h2 style='color:red'> Learning goals include different types of learning. </h2>");
+    $("#filters").css("display","none");
+$("#option3").click( function(){
+    $("#feedback").html("<h2 style='color:green'> Correct! The audience filter narrows result by teacher and students.</h2>");
+    $("#filters").css("display","inline");
+});
+	
+$("#option2, #option4").click( function(){
+    $("#feedback").html("<h2 style='color:red'> These do not specifically narrow results by teacher and student. </h2>");
+$("#filters").css("display","none");
+});
+
+
+});
+ 
+});
+
+</script>
+	
+</head>
+
+<body>
+	
+	<div id="wrapper">
+<h1>Which one of the filters on the "Instructional Resources" webpage narrows down the search results by teacher or student facing resources?</h1>
+<h3>Click on one of the following choices</h3>
+ 
+<h2 id="option1" class="choices"> Learning Goals </h2>
+<h2 id="option2" class="choices"> Groupings </h2>
+<h2 id="option3" class="choices"> Audience </h2>
+<h2 id="option4" class="choices"> Strategy Category </h2>
+ 
+<div id="feedback"></div>
+<img id="filters" src="img/filters.png" />
+	</div>
+
+	
+</body>
+</html>

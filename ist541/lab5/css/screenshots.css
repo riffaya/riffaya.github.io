@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #screen_2{
+border: black 5px solid;
+width: 100%;
+}
+ 
+ #screen_2_arrows {
+display: none;
+border: black 5px solid;
+	 width: 100%;
+}
+
+ #filters {
+display: none;
+border: black 5px solid;
+	 width: 75%;
+}
+
+.choices {
+cursor: pointer;
+}
+
+
